@@ -21,5 +21,10 @@
         <label>&nbsp;</label>
         <input type="submit" value="Join Now" class="margin_left">
     </form>
+        
+    <form action="test" method="post">
+        <label>&nbsp;</label>
+        <input type="submit" value="Click here to test POST method!" id="submit">
+    </form>
 </body>
 </html>

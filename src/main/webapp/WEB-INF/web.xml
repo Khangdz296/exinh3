@@ -23,6 +23,15 @@
         <url-pattern>/emailList</url-pattern>
     </servlet-mapping>
 
+     <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>murach.email.TestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
     <!-- you can comment out these tags when the app is in development -->
     <error-page>
         <error-code>404</error-code>
